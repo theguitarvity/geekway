@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8"/>
+		<!--Import Google Icon Font-->
+    	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      	<!--Import materialize.css-->
+    	<link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+    	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+      	<!--Let browser know website is optimized for mobile-->
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	</head>
+	<body>
+		<div class="navbar-fixed">
+			<nav class="white">
+			    <div class="nav-wrapper">
+			         <a href="#" class="brand-logo right"><img class="circle icon-perfil"src="assets/img/clark.jpg" alt="perfil" width="50px"></a>
+			         <a href="dashboard.html" class="brand-logo">
+			         	<i class="material-icons icon-dark">home</i>
+			         </a>
+			         <a href="#" data-activates="menu-mobile" class="button-collapse">
+			             <i class="material-icons icon-dark">menu</i>
+			         </a>
+			         <ul class="right hide-on-med-and-down">
+			             <li><a href="#">Perfil</a></li>
+			             <li><a href="#">Minha coleção</a></li>
+			             <li><a href="#">Configurações</a></li>
+			             <li><a href="index.html">Sair</a></li>
+			         </ul>
+			         <ul class="side-nav" id="menu-mobile">
+			         	 <li><img src="assets/img/logo.png"></li>
+			             <li><a href="#">Perfil</a></li>
+			             <li><a href="#">Minha coleção</a></li>
+			             <li><a href="#">Configurações</a></li>
+			             <li><a href="index.html">Sair</a></li>
+	         		 </ul>
+			    </div>
+			</nav>
+		</div>
+	  	
+		<main class="waves-effect light-blue lighten-1 apply-padding">
+			<div class="content">
+				<i class="material-icons large">movie</i>
+				<h4>Filmes</h4>
+			</div>
+			<div class="card">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="https://cdn-images-1.medium.com/max/1600/1*7jRxKG2yie7Y7CzqC8_5Bw.jpeg">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">Liga da Justiça - 2017<i class="material-icons right">more_vert</i></span>
+			      <p><a href="detail.html">Mais Informações</a></p>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Liga da Justiça<i class="material-icons right">close</i></span>
+			      <p>Dirigido por Zack Snyder, a mais famosa equipe de herois da história se reune pela primeira vez nas telonas.</p>
+			    </div>
+			</div>
+			<div class="card">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="http://media.comicbook.com/2017/09/avengers-3-infinity-war-banner-story-spoliers-clues-1022009.jpg">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">Vingadores - Guerra Infinita<i class="material-icons right">more_vert</i></span>
+			      <p><a href="#">Mais Informações</a></p>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Vingadores - Guerra Infinita<i class="material-icons right">close</i></span>
+			      <p>Dirigido por Zack Snyder, a mais famosa equipe de herois da história se reune pela primeira vez nas telonas.</p>
+			    </div>
+			</div>
+			<div class="card">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <img class="activator" src="http://www.mcmbuzz.com/wp-content/uploads/2015/10/watchmen.jpg">
+			    </div>
+			    <div class="card-content">
+			      <span class="card-title activator grey-text text-darken-4">Watchmen - 2009<i class="material-icons right">more_vert</i></span>
+			      <p><a href="#">Mais Informações</a></p>
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Watchmen - 2009<i class="material-icons right">close</i></span>
+			      <p>Dirigido por Zack Snyder, a mais famosa equipe de herois da história se reune pela primeira vez nas telonas.</p>
+			    </div>
+			</div>
+			<div class="content">
+				<i class="material-icons large">book</i>
+				<h4>HQ's</h4>
+			</div>
+		</main>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    	<script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    	<script>
+    		$(function(){
+			     $(".button-collapse").sideNav();
+			 });
+    	</script>
+	</body>
+</html>
